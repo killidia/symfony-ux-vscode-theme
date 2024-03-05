@@ -1,0 +1,21 @@
+{
+  "name": "symfony-ux-theme",
+  "displayName": "Symfony UX Theme",
+  "description": "theme based on symfony ux website",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Symfony UX",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Symfony UX-color-theme.json"
+      }
+    ]
+  }
+}
